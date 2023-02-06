@@ -24,7 +24,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0));
     bottom: 0;
 }
 
@@ -251,6 +251,8 @@ html {
         font-size: 2em;
     }
 
+
+
 }
 
 
@@ -277,4 +279,14 @@ html {
         margin-top:80px;
         margin-left:250px;
      }
+
+     .workingspace h2 {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 200;
+    }
+     .workingspace h3 {
+        font-size: 25px;
+
+    }
 }
